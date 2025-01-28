@@ -1,0 +1,22 @@
+# Directorio de distribuciones generadas por `python setup.py sdist bdist_wheel`
+dist/
+build/
+*.egg-info/
+
+# Variables de entorno (credenciales y configuraciones privadas)
+huawei_conf.env
+.env
+
+# Caché de Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+venv/
+.virtualenv/
+
+# Archivos de dependencias generados por setuptools y poetry
+*.egg
+*.egg-info
+*.lock
