@@ -199,6 +199,326 @@ inverter_registers = {
         "address": 32023,
         "quantity": 1
     },
+    "pv5_voltage": {
+        "read_write": "RO",
+        "type": "I16",
+        "unit": "V",
+        "gain": 10,
+        "address": 32024,
+        "quantity": 1
+    },
+    "pv5_current": {
+        "read_write": "RO",
+        "type": "I16",
+        "unit": "A",
+        "gain": 100,
+        "address": 32025,
+        "quantity": 1
+    },
+    "pv6_voltage": {
+        "read_write": "RO",
+        "type": "I16",
+        "unit": "V",
+        "gain": 10,
+        "address": 32026,
+        "quantity": 1
+    },
+    "pv6_current": {
+        "read_write": "RO",
+        "type": "I16",
+        "unit": "A",
+        "gain": 100,
+        "address": 32027,
+        "quantity": 1
+    },
+    "pv7_voltage": {
+        "read_write": "RO",
+        "type": "I16",
+        "unit": "V",
+        "gain": 10,
+        "address": 32028,
+        "quantity": 1
+    },
+    "pv7_current": {
+        "read_write": "RO",
+        "type": "I16",
+        "unit": "A",
+        "gain": 100,
+        "address": 32029,
+        "quantity": 1
+    },
+    "pv8_voltage": {
+        "read_write": "RO",
+        "type": "I16",
+        "unit": "V",
+        "gain": 10,
+        "address": 32030,
+        "quantity": 1
+    },
+    "pv8_current": {
+        "read_write": "RO",
+        "type": "I16",
+        "unit": "A",
+        "gain": 100,
+        "address": 32031,
+        "quantity": 1
+    },
+    "pv9_voltage": {
+        "read_write": "RO",
+        "type": "I16",
+        "unit": "V",
+        "gain": 10,
+        "address": 32032,
+        "quantity": 1
+    },
+    "pv9_current": {
+        "read_write": "RO",
+        "type": "I16",
+        "unit": "A",
+        "gain": 100,
+        "address": 32033,
+        "quantity": 1
+    },
+    "pv10_voltage": {
+        "read_write": "RO",
+        "type": "I16",
+        "unit": "V",
+        "gain": 10,
+        "address": 32034,
+        "quantity": 1
+    },
+    "pv10_current": {
+        "read_write": "RO",
+        "type": "I16",
+        "unit": "A",
+        "gain": 100,
+        "address": 32035,
+        "quantity": 1
+    },
+    "pv11_voltage": {
+        "read_write": "RO",
+        "type": "I16",
+        "unit": "V",
+        "gain": 10,
+        "address": 32036,
+        "quantity": 1
+    },
+    "pv11_current": {
+        "read_write": "RO",
+        "type": "I16",
+        "unit": "A",
+        "gain": 100,
+        "address": 32037,
+        "quantity": 1
+    },
+    "pv12_voltage": {
+        "read_write": "RO",
+        "type": "I16",
+        "unit": "V",
+        "gain": 10,
+        "address": 32038,
+        "quantity": 1
+    },
+    "pv12_current": {
+        "read_write": "RO",
+        "type": "I16",
+        "unit": "A",
+        "gain": 100,
+        "address": 32039,
+        "quantity": 1
+    },
+    "pv13_voltage": {
+        "read_write": "RO",
+        "type": "I16",
+        "unit": "V",
+        "gain": 10,
+        "address": 32040,
+        "quantity": 1
+    },
+    "pv13_current": {
+        "read_write": "RO",
+        "type": "I16",
+        "unit": "A",
+        "gain": 100,
+        "address": 32041,
+        "quantity": 1
+    },
+    "pv14_voltage": {
+        "read_write": "RO",
+        "type": "I16",
+        "unit": "V",
+        "gain": 10,
+        "address": 32042,
+        "quantity": 1
+    },
+    "pv14_current": {
+        "read_write": "RO",
+        "type": "I16",
+        "unit": "A",
+        "gain": 100,
+        "address": 32043,
+        "quantity": 1
+    },
+    "pv15_voltage": {
+        "read_write": "RO",
+        "type": "I16",
+        "unit": "V",
+        "gain": 10,
+        "address": 32044,
+        "quantity": 1
+    },
+    "pv15_current": {
+        "read_write": "RO",
+        "type": "I16",
+        "unit": "A",
+        "gain": 100,
+        "address": 32045,
+        "quantity": 1
+    },
+    "pv16_voltage": {
+        "read_write": "RO",
+        "type": "I16",
+        "unit": "V",
+        "gain": 10,
+        "address": 32046,
+        "quantity": 1
+    },
+    "pv16_current": {
+        "read_write": "RO",
+        "type": "I16",
+        "unit": "A",
+        "gain": 100,
+        "address": 32047,
+        "quantity": 1
+    },
+    "pv17_voltage": {
+        "read_write": "RO",
+        "type": "I16",
+        "unit": "V",
+        "gain": 10,
+        "address": 32048,
+        "quantity": 1
+    },
+    "pv17_current": {
+        "read_write": "RO",
+        "type": "I16",
+        "unit": "A",
+        "gain": 100,
+        "address": 32049,
+        "quantity": 1
+    },
+    "pv18_voltage": {
+        "read_write": "RO",
+        "type": "I16",
+        "unit": "V",
+        "gain": 10,
+        "address": 32050,
+        "quantity": 1
+    },
+    "pv18_current": {
+        "read_write": "RO",
+        "type": "I16",
+        "unit": "A",
+        "gain": 100,
+        "address": 32051,
+        "quantity": 1
+    },
+    "pv19_voltage": {
+        "read_write": "RO",
+        "type": "I16",
+        "unit": "V",
+        "gain": 10,
+        "address": 32052,
+        "quantity": 1
+    },
+    "pv19_current": {
+        "read_write": "RO",
+        "type": "I16",
+        "unit": "A",
+        "gain": 100,
+        "address": 32053,
+        "quantity": 1
+    },
+    "pv20_voltage": {
+        "read_write": "RO",
+        "type": "I16",
+        "unit": "V",
+        "gain": 10,
+        "address": 32054,
+        "quantity": 1
+    },
+    "pv20_current": {
+        "read_write": "RO",
+        "type": "I16",
+        "unit": "A",
+        "gain": 100,
+        "address": 32055,
+        "quantity": 1
+    },
+    "pv21_voltage": {
+        "read_write": "RO",
+        "type": "I16",
+        "unit": "V",
+        "gain": 10,
+        "address": 32056,
+        "quantity": 1
+    },
+    "pv21_current": {
+        "read_write": "RO",
+        "type": "I16",
+        "unit": "A",
+        "gain": 100,
+        "address": 32057,
+        "quantity": 1
+    },
+    "pv22_voltage": {
+        "read_write": "RO",
+        "type": "I16",
+        "unit": "V",
+        "gain": 10,
+        "address": 32058,
+        "quantity": 1
+    },
+    "pv22_current": {
+        "read_write": "RO",
+        "type": "I16",
+        "unit": "A",
+        "gain": 100,
+        "address": 32059,
+        "quantity": 1
+    },
+    "pv23_voltage": {
+        "read_write": "RO",
+        "type": "I16",
+        "unit": "V",
+        "gain": 10,
+        "address": 32060,
+        "quantity": 1
+    },
+    "pv23_current": {
+        "read_write": "RO",
+        "type": "I16",
+        "unit": "A",
+        "gain": 100,
+        "address": 32061,
+        "quantity": 1
+    },
+    "pv24_voltage": {
+        "read_write": "RO",
+        "type": "I16",
+        "unit": "V",
+        "gain": 10,
+        "address": 32062,
+        "quantity": 1
+    },
+    "pv24_current": {
+        "read_write": "RO",
+        "type": "I16",
+        "unit": "A",
+        "gain": 100,
+        "address": 32063,
+        "quantity": 1
+    },
     "input_power": {
         "read_write": "RO",
         "type": "I32",
